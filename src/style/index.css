@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", "sans-serif";
+  --color-primary: #5f9da0;
+}
+
+.btn {
+  &-primary {
+    @apply bg-blue-500 text-white;
+  }
+  &-secondary {
+    @apply bg-gray-500 text-white;
+  }
+}
+
+.text-link {
+  @apply font-light text-blue-700 hover:underline;
+}
