@@ -1,21 +1,20 @@
 import ContactInfo from "@/components/home/ContactInfo";
 import { AiFillInstagram } from "react-icons/ai";
-import { FaGithubAlt, FaGoogleScholar } from "react-icons/fa6";
-import { RiTwitterXLine } from "react-icons/ri";
+import { FaGithubAlt, FaLinkedin, FaYoutube } from "react-icons/fa6";
 
 const contactData = {
   email: "deta.semarang@gmail.com",
   address: "Jl. Mars I No. H/7, Semarang",
   socialLinks: [
     {
-      name: "Twitter",
-      icon: <RiTwitterXLine className="text-2xl" />,
+      name: "Youtube",
+      icon: <FaYoutube className="text-2xl" />,
       url: "",
     },
     { name: "GitHub", icon: <FaGithubAlt className="text-2xl" />, url: "" },
     {
-      name: "Google Scholar",
-      icon: <FaGoogleScholar className="text-xl" />,
+      name: "Linkedin",
+      icon: <FaLinkedin className="text-xl" />,
       url: "",
     },
     {
