@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -11,6 +11,7 @@ const Layout = () => {
         <hr className="border border-gray-200" />
         <Footer />
       </main>
+      <ScrollRestoration />
     </>
   );
 };

@@ -16,13 +16,14 @@ const About = () => {
           of computer science and engineering.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi velit
-          quas nostrum magnam veniam veritatis tempore praesentium sunt totam
-          sequi. Tempore saepe quam neque amet fugit dolorem voluptatem, ipsa
-          ab. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
-          tempore corporis dolores sint aspernatur vitae. Nemo, minima totam
-          suscipit numquam maiores facere ipsa quidem odit, quo expedita quaerat
-          ipsam neque?
+          As a freelancer specializing in data science and machine learning, I
+          have the expertise to transform data into actionable insights and
+          innovative solutions. I don't just stop at data analysis; I also have
+          the capability to develop web-based applications, complete with
+          appealing designs and databases tailored to your needs. With a
+          combination of my technical skills and creativity, I am ready to help
+          you optimize the potential of your data to achieve your business
+          goals.
         </p>
       </div>
     </section>

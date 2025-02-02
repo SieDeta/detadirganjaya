@@ -4,7 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 import Layout from "@/components/Layout";
-import Home from "@/pages/home/Home";
+import Home from "@/pages/Home";
 import Research from "@/pages/Research";
 import Publications from "@/pages/Publications";
 

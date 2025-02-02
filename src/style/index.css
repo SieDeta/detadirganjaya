@@ -2,18 +2,17 @@
 
 @theme {
   --font-inter: "Inter", "sans-serif";
-  --color-primary: #5f9da0;
+  --color-primary: #466eb4;
 }
 
-.btn {
-  &-primary {
-    @apply bg-blue-500 text-white;
-  }
-  &-secondary {
-    @apply bg-gray-500 text-white;
-  }
+.btn-primary {
+  @apply border-[1.5px] border-gray-800 rounded-lg text-gray-800  hover:text-white hover:bg-gray-800 p-1 px-2;
+}
+
+.label {
+  @apply bg-blue-400/20 p-[3px] rounded-lg px-3 border-[1.5px] border-blue-600/20 text-sm w-fit font-semibold;
 }
 
 .text-link {
-  @apply font-light text-blue-700 hover:underline;
+  @apply font-light text-primary font-normal hover:underline;
 }

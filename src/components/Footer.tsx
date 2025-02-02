@@ -2,8 +2,8 @@ import { HiMiniEnvelope } from "react-icons/hi2";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center p-4 md:text-base text-sm">
-      <div className="text-gray-500 font-light">
+    <footer className="flex justify-between items-center p-4 md:text-base text-sm mb-5">
+      <div className="text-gray-500 font-light text-sm">
         &copy; 2025 Deta Dirganjaya. All rights reserved.
       </div>
 

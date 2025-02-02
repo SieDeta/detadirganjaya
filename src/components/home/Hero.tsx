@@ -1,4 +1,4 @@
-import ContactInfo from "@/components/ContactInfo";
+import ContactInfo from "@/components/home/ContactInfo";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaGithubAlt, FaGoogleScholar } from "react-icons/fa6";
 import { RiTwitterXLine } from "react-icons/ri";

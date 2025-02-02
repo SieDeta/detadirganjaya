@@ -18,7 +18,7 @@ const navbarItems = [
 ];
 
 const Navbar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>();
+  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
 
   const handleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -30,15 +30,19 @@ const Navbar = () => {
     }
   };
 
+  const closeSidebar = () => {
+    setIsSidebarOpen(false);
+  };
+
   return (
     <div className="fixed top-0 left-0 w-full z-10">
       {/* desktop */}
       <nav className="bg-gray-50 md:p-6 p-4 border border-gray-200">
         <div className="flex items-center justify-between container mx-auto max-w-5xl">
           {/* logo */}
-          <div className="text-xl font-light tracking-wide">
+          <NavLink to={"/"} className="text-xl font-normal tracking-wide">
             Deta Dirganjaya
-          </div>
+          </NavLink>
 
           {/* hamburger mobile */}
           <button
@@ -65,7 +69,11 @@ const Navbar = () => {
                 {item.name}
               </NavLink>
             ))}
-            <a href="" target="_blank" className="text-gray-500 font-light">
+            <a
+              href="./cv-resume-sie-deta-dirganjaya.pdf"
+              target="_blank"
+              className="text-gray-500 font-light"
+            >
               CV
             </a>
           </div>
@@ -80,19 +88,22 @@ const Navbar = () => {
         onClick={handleOutsideClick}
       >
         <div
-          className={`fixed top-0 left-0 w-64 h-full bg-gray-100 transform transition-transform duration-300 ease-in-out sidebar ${
+          className={`fixed top-0 left-0 w-64 h-full bg-gray-100 transform transition-transform duration-500 ease-in-out sidebar ${
             isSidebarOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <div className="p-4 mt-5 flex">
-            <div className="text-xl font-light">Deta Dirganjaya</div>
+            <NavLink to={"/"} className="text-xl font-light">
+              Deta Dirganjaya
+            </NavLink>
           </div>
 
-          <div className="flex flex-col space-y-4 p-4">
+          <div className="flex flex-col space-y-4 p-4 text-lg">
             {navbarItems.map((item) => (
               <NavLink
                 key={item.name}
                 to={item.link}
+                onClick={closeSidebar}
                 className={({ isActive }) =>
                   isActive ? "text-black" : "text-gray-500"
                 }
@@ -100,6 +111,14 @@ const Navbar = () => {
                 {item.name}
               </NavLink>
             ))}
+            <a
+              href="./cv-resume-sie-deta-dirganjaya.pdf"
+              target="_blank"
+              onClick={closeSidebar}
+              className="text-gray-500 font-light"
+            >
+              CV
+            </a>
           </div>
         </div>
       </div>
