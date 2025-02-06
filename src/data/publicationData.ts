@@ -17,47 +17,24 @@ export interface PublicationYear {
 
 export const publications: PublicationYear[] = [
   {
-    year: "2024",
+    year: "Coming Soon",
     publication: [
       {
-        title: "Publication 1",
-        authors: "Author A, Author B",
-        description: "Description of publication 1",
+        title: "Metaheuristic-Based Hyperparameter Tuning for Projective Transformation Rectification Networks in Medical Image Processing",
+        authors: "Sie Deta Dirganjaya, Guruh Fajar Shidik, Radhitya Marendratama, Chandra Lukita Buana, Aisyah Nuraini, Edi Jaya Kusuma",
+        description: "IEEE Access. [Drafting manuscript]",
         links: [
-          { type: "publication", url: "https://link-to-publication.com" },
-          { type: "citation", url: "https://citation-link.com" },
+          { type: "publication", url: "" },
+          { type: "citation", url: "" },
         ],
       },
       {
-        title: "Publication 2",
-        authors: "Author C, Author D",
-        description: "Description of publication 2",
+        title: "Analyzing the Impact of Transpose Layers on CNN-Based Deep Learning ",
+        authors: "Maulidya Ayu Ardiena, Sie Deta Dirganjaya, Guruh Fajar Shidik",
+        description: "Proceedings of the IEEE. [Ready for submission]",
         links: [
-          { type: "publication", url: "https://link-to-publication.com" },
-          { type: "citation", url: "https://citation-link.com" },
-        ],
-      },
-    ],
-  },
-  {
-    year: "2023",
-    publication: [
-      {
-        title: "Publication 1",
-        authors: "Author A, Author B",
-        description: "Description of publication 1",
-        links: [
-          { type: "publication", url: "https://link-to-publication.com" },
-          { type: "citation", url: "https://citation-link.com" },
-        ],
-      },
-      {
-        title: "Publication 2",
-        authors: "Author C, Author D",
-        description: "Description of publication 2",
-        links: [
-          { type: "publication", url: "https://link-to-publication.com" },
-          { type: "citation", url: "https://citation-link.com" },
+          { type: "publication", url: "https://drive.google.com/file/d/1RynWUQoDjXBXA3-vM47RuVCNj9_V4oyp/view?usp=drive_link" },
+          { type: "citation", url: "" },
         ],
       },
     ],

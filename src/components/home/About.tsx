@@ -7,23 +7,39 @@ const About = () => {
       <Heading title="About me" icon={<FaRegIdCard className="text-3xl" />} />
       <div className="space-y-3 text-lg font-light mb-3">
         <p>
-          I am an Assistant Professor of Computer Science at{" "}
+          Hello! I am currently pursuing a Bachelor's degree in Computer Science at{" "}
           <a href="https://dinus.ac.id/" target="_blank" className="text-link">
             Dian Nuswantoro University
           </a>
-          . I am also an Affiliate Professor of Electrical & Computer
-          Engineering. I am passionate about teaching and research in the field
-          of computer science and engineering.
+          . Alongside my studies, I work as a Research Assistant at the{" "}
+          <a href="https://dinus.ac.id/fakultas-ilmu-komputer/" target="_blank" className="text-link">
+            Dian Nuswantoro Research Center
+          </a>{" "}
+          under the supervision of{" "}
+          <a href="https://scholar.google.com/citations?user=pRFwdLQAAAAJ&hl=en" target="_blank" className="text-link">
+            Guruh Fajar Shidik
+          </a>{" "}
+          and{" "}
+          <a href="https://scholar.google.co.id/citations?user=xF42z_cAAAAJ&hl=id" target="_blank" className="text-link">
+            Edi Jaya Kusuma
+          </a>
+          . Additionally, I serve as a Teaching Assistant for the Data Science{" "}
+          <a href="https://sti.dinus.ac.id/BK" target="_blank" className="text-link">
+            Career Guidance Class
+          </a>{" "}
+          at Dian Nuswantoro University's where I support students in developing their skills in data analysis and machine learning. Furthermore, as part of{" "}
+          <a href="https://bengkelkoding.dinus.ac.id/" target="_blank" className="text-link">
+            Bengkel Koding
+          </a>
+          , I contribute to research and development, focusing on innovative projects that drive campus advancements.
         </p>
         <p>
-          As a freelancer specializing in data science and machine learning, I
-          have the expertise to transform data into actionable insights and
-          innovative solutions. I don't just stop at data analysis; I also have
-          the capability to develop web-based applications, complete with
-          appealing designs and databases tailored to your needs. With a
-          combination of my technical skills and creativity, I am ready to help
-          you optimize the potential of your data to achieve your business
-          goals.
+          My research interest focuses on <b>network performance optimization</b> and the <b>application of AI and machine learning</b> for networking. I am particularly interested in developing large-scale systems and research platforms
+          that enhance the efficiency and reliability of <b>cloud and data center networking</b>.
+        </p>
+        <p>
+          My motivation is that by utilizing ML techniques, I seek to address real-world challenges specifically in networking, ensuring seamless integration and application of machine learning in complex networked environments to improve
+          overall system performance and management.
         </p>
       </div>
     </section>
