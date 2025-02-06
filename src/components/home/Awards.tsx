@@ -1,6 +1,7 @@
 import Heading from "@/components/Heading";
 import { FaTrophy } from "react-icons/fa6";
 import { awards } from "@/data/home/awardsData";
+import ReactMarkdown from "react-markdown";
 
 const Awards = () => {
   return (
@@ -16,10 +17,26 @@ const Awards = () => {
             key={index}
             className="bg-white border border-gray-300 rounded-xl p-4"
           >
-            <h3 className="text-lg">{award.title}</h3>
+            <ReactMarkdown
+              className="text-lg font-semibold"
+              components={{
+                a: ({ ...props }) => (
+                  <a
+                    className="text-link !font-semibold"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    {...props}
+                  />
+                ),
+              }}
+            >
+              {award.title}
+            </ReactMarkdown>
+
             <p className="text-gray-500 font-light text-sm">
               {award.event} | {award.year}
             </p>
+
             <div className="grid grid-cols-2 gap-3 my-2 text-sm">
               {award.image.map((img, idx) => (
                 <img
@@ -30,7 +47,22 @@ const Awards = () => {
                 />
               ))}
             </div>
-            <p className="mt-2 text-gray-700 font-light">{award.description}</p>
+
+            <ReactMarkdown
+              className="mt-2 text-gray-700 font-light"
+              components={{
+                a: ({ ...props }) => (
+                  <a
+                    className="text-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    {...props}
+                  />
+                ),
+              }}
+            >
+              {award.description}
+            </ReactMarkdown>
           </div>
         ))}
       </div>

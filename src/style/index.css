@@ -6,7 +6,7 @@
 }
 
 .btn-primary {
-  @apply border-[1.5px] border-gray-800 rounded-lg text-gray-800  hover:text-white hover:bg-gray-800 p-1 px-2;
+  @apply border-[1px] border-gray-800 rounded-lg text-gray-800  hover:text-white hover:bg-gray-800 p-1 px-2;
 }
 
 .label {

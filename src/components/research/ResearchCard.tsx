@@ -58,10 +58,12 @@ const ResearchCard = (props: ResearchCardProps) => {
         <img
           src={props.image}
           alt={props.title}
-          className="w-77 h-40 object-cover rounded-xl"
+          className="w-77 h-40 object-cover rounded-lg shadow-lg hover:scale-125 transition-transform duration-300"
         />
       </div>
-      <Accordion content={props.summary} title="Read summary" />
+      <div className="mt-3">
+        <Accordion content={props.summary} title="Read summary" />
+      </div>
     </div>
   );
 };

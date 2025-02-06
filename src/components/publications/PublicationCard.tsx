@@ -31,7 +31,25 @@ const PublicationCard = (props: PublicationCardProps) => {
     <div className="border border-l-4 border-l-primary border-gray-200 p-4 rounded-lg shadow-sm bg-white">
       <div className="space-y-2">
         <h2 className="text-lg mb-1">{props.title}</h2>
-        <p className="text-gray-800 font-light">{props.authors}</p>
+        <p className="text-gray-800 font-light">
+          {props.authors
+            .split(", ")
+            .map((author, index) => (
+              <span
+                key={index}
+                className={
+                  author === "Sie Deta Dirganjaya" ? "font-semibold" : ""
+                }
+              >
+                {author}
+              </span>
+            ))
+            .reduce<React.ReactNode[]>(
+              (prev, curr) => (prev.length ? [...prev, ", ", curr] : [curr]),
+              []
+            )}
+        </p>
+
         <p className="text-gray-500 font-light">{props.description}</p>
       </div>
       <div className="flex gap-2 mt-3">
