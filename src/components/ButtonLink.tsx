@@ -5,10 +5,18 @@ type ButtonLinkProps = {
 };
 
 const ButtonLink = (button: ButtonLinkProps) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (!button.link) {
+      e.preventDefault();
+      alert("Sorry, not available yet");
+    }
+  };
+
   return (
     <div>
       <a
-        href={button.link}
+        href={button.link || "#"}
+        onClick={handleClick}
         className="text-sm flex gap-2 items-center btn-primary capitalize"
       >
         {button.icon}
@@ -17,4 +25,5 @@ const ButtonLink = (button: ButtonLinkProps) => {
     </div>
   );
 };
+
 export default ButtonLink;
