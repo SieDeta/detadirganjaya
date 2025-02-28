@@ -25,7 +25,7 @@ const About = () => {
           </a>{" "}
           at Dian Nuswantoro University's where I support students in developing their skills in data analysis and machine learning. Furthermore, as part of{" "}
           <a href="https://bengkelkoding.dinus.ac.id/" target="_blank" className="text-link">
-            AI Research adn Development Group (Bengkel Koding)
+            AI Research and Development Group (Bengkel Koding)
           </a>
           , I contribute to research and development, focusing on innovative projects that drive campus advancements.
         </p>
