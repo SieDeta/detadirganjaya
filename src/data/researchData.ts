@@ -16,7 +16,7 @@ export interface ResearchProject {
 export const researchProjects: ResearchProject[] = [
   {
     date: "Des 2024",
-    event: "Bengkel Koding",
+    event: "AI Research and Development Group (Bengkel Koding)",
     title: "VSA: Virtual Smart Assistant",
     authors: "Open for public.",
     summary:
@@ -39,7 +39,7 @@ export const researchProjects: ResearchProject[] = [
   },
   {
     date: "Jul 2024",
-    event: "Bengkel Koding",
+    event: "AI Research and Development Group (Bengkel Koding)",
     title: "CLCM: Custom Lightweight CNN Model for low-end edge devices",
     authors: "Open for public.",
     summary:

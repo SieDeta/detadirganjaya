@@ -17,19 +17,15 @@ const About = () => {
           </a>{" "}
           under the supervision of{" "}
           <a href="https://scholar.google.com/citations?user=pRFwdLQAAAAJ&hl=en" target="_blank" className="text-link">
-            Guruh Fajar Shidik
+            Dr. Guruh Fajar Shidik
           </a>{" "}
-          and{" "}
-          <a href="https://scholar.google.co.id/citations?user=xF42z_cAAAAJ&hl=id" target="_blank" className="text-link">
-            Edi Jaya Kusuma
-          </a>
           . Additionally, I serve as a Teaching Assistant for the Data Science{" "}
           <a href="https://sti.dinus.ac.id/BK" target="_blank" className="text-link">
             Career Guidance Class
           </a>{" "}
           at Dian Nuswantoro University's where I support students in developing their skills in data analysis and machine learning. Furthermore, as part of{" "}
           <a href="https://bengkelkoding.dinus.ac.id/" target="_blank" className="text-link">
-            Bengkel Koding
+            AI Research adn Development Group (Bengkel Koding)
           </a>
           , I contribute to research and development, focusing on innovative projects that drive campus advancements.
         </p>

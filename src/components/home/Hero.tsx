@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <img src="../images/deta-dirganjaya.png" alt="hero" className="rounded-xl object-cover w-full h-56 shadow-lg" />
+          <img src="../images/profile5.JPG" alt="hero" className="rounded-xl object-cover w-full h-56 shadow-lg" />
         </div>
       </div>
     </section>

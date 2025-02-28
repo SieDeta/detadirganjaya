@@ -8,6 +8,16 @@ export interface ExperienceItem {
 
 export const experiences: ExperienceItem[] = [
   {
+    title: "Research Trainee",
+    company: "SYstems and AI Research (SYAIR) Traingin Program",
+    period: "Jan 2024 - Now",
+    location: "Remote, UChicago-Indonesia",
+    responsibilities: [
+      "Developed a system for generating product bundle promotions used by the company for product marketing using the Association method.",
+      "Responsible for data analysis, modeling, visualization, maintenance, and development of models to support business decision-making.",
+    ],
+  },
+  {
     title: "Research Assistant",
     company: "Dian Nuswantoro University Research Center",
     period: "Sep 2024 - Now",
@@ -31,22 +41,12 @@ export const experiences: ExperienceItem[] = [
   },
   {
     title: "Research Assistant",
-    company: "Bengkel Koding",
+    company: "AI Research and Development Group (Bengkel Koding)",
     period: "Sep 2024 - Feb 2025",
     location: "Semarang, Indonesia",
     responsibilities: [
       "Developed a Virtual Smart Assistant (VSA) system integrating real-time facial recognition and emotion detection with an LLM-based chatbot, enabling users to interact seamlessly through text-to-speech technology.",
       "Involved in research with computer science lecturers in conducting research on preventing cyberbullying on social media using ML through the Multi-Modal framework.",
-    ],
-  },
-  {
-    title: "Revenue Analyst",
-    company: "CV Sanjaya Utama",
-    period: "Feb 2023 - Jul 2023",
-    location: "Semarang, Indonesia",
-    responsibilities: [
-      "Developed a system for generating product bundle promotions used by the company for product marketing using the Association method.",
-      "Responsible for data analysis, modeling, visualization, maintenance, and development of models to support business decision-making.",
     ],
   },
 ];

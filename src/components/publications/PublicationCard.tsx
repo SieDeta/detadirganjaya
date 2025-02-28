@@ -35,31 +35,18 @@ const PublicationCard = (props: PublicationCardProps) => {
           {props.authors
             .split(", ")
             .map((author, index) => (
-              <span
-                key={index}
-                className={
-                  author === "Sie Deta Dirganjaya" ? "font-semibold" : ""
-                }
-              >
+              <span key={index} className={author === "Sie Deta Dirganjaya" ? "font-semibold" : ""}>
                 {author}
               </span>
             ))
-            .reduce<React.ReactNode[]>(
-              (prev, curr) => (prev.length ? [...prev, ", ", curr] : [curr]),
-              []
-            )}
+            .reduce<React.ReactNode[]>((prev, curr) => (prev.length ? [...prev, ", ", curr] : [curr]), [])}
         </p>
 
         <p className="text-gray-500 font-light">{props.description}</p>
       </div>
       <div className="flex gap-2 mt-3">
         {props.links.map((link, index) => (
-          <ButtonLink
-            key={index}
-            link={link.url}
-            text={link.type}
-            icon={getIcon(link.type)}
-          />
+          <ButtonLink key={index} link={link.url} text={link.type} icon={getIcon(link.type)} />
         ))}
       </div>
     </div>
