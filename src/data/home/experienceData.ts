@@ -8,31 +8,32 @@ export interface ExperienceItem {
 
 export const experiences: ExperienceItem[] = [
   {
-    title: "Research Trainee",
-    company: "SYstems and AI Research (SYAIR) Traingin Program",
-    period: "Jan 2024 - Now",
-    location: "Remote, UChicago-Indonesia",
+    title: "Systems and AI Research (SYAIR) Training Program",
+    company: "University of Chicago",
+    period: "Jan 2025 - Now",
+    location: "Remote, United States-Indonesia",
     responsibilities: [
-      "Developed a system for generating product bundle promotions used by the company for product marketing using the Association method.",
-      "Responsible for data analysis, modeling, visualization, maintenance, and development of models to support business decision-making.",
+      "Covered 20+ technical papers from SIGCOMM and NSDI conferences",
+      "Replicated and reproduced key experiments from top-tier publications.",
+      "Received intensive training in research methodologies, technical writing, and engagement with top-tier research communities.",
     ],
   },
   {
     title: "Research Assistant",
     company: "Dian Nuswantoro University Research Center",
     period: "Sep 2024 - Now",
-    location: "Semarang, Indonesia",
+    location: "Hybrid, Semarang",
     responsibilities: [
-      "Responsible for conducting research to handle international indexed journal publications.",
-      "Responsible for preparing research proposals, conducting research, writing journal manuscripts, revising journals.",
-      "My work focuses on the application of AI and ML to improve efficiency and optimization in the fields of Image Processing, Healthcare, Cloud and Quantum computing.",
+      "Experienced in the area of Artificial Intelligence (AI), Distributed Systems, Image Processing, and Distributed Computing.",
+      "Optimizing workload distribution based on CPU and RAM utilization using the Cluster RL Q-Learning technique an FEC environment simulated with CloudSimSDN",
+      "Analyzing and testing the impact of the ”selective” parameter frequency in the SSVSG method on Named Entity Recognition (NER) for Indonesian disaster dataset",
     ],
   },
   {
     title: "Teaching Assistant",
     company: "Dian Nuswantoro University Career Guidance",
     period: "Sep 2024 - Feb 2025",
-    location: "Semarang, Indonesia",
+    location: "On-Site, Semarang",
     responsibilities: [
       "Assisting and teaching students in a career guidance class, preparing them for entering the workforce.",
       "Responsible for teaching Data Science classes with a total of 50 students.",
@@ -41,9 +42,9 @@ export const experiences: ExperienceItem[] = [
   },
   {
     title: "Research Assistant",
-    company: "AI Research and Development Group (Bengkel Koding)",
+    company: "AI Research and Development Group",
     period: "Sep 2024 - Feb 2025",
-    location: "Semarang, Indonesia",
+    location: "On-Site, Semarang",
     responsibilities: [
       "Developed a Virtual Smart Assistant (VSA) system integrating real-time facial recognition and emotion detection with an LLM-based chatbot, enabling users to interact seamlessly through text-to-speech technology.",
       "Involved in research with computer science lecturers in conducting research on preventing cyberbullying on social media using ML through the Multi-Modal framework.",
