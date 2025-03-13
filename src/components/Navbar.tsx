@@ -56,7 +56,7 @@ const Navbar = () => {
                 {item.name}
               </NavLink>
             ))}
-            <a href="./cv-resume-sie-deta-dirganjaya.pdf" target="_blank" className="text-gray-500 font-light">
+            <a href="./Deta_CV.pdf" target="_blank" className="text-gray-500 font-light">
               CV
             </a>
           </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 {item.name}
               </NavLink>
             ))}
-            <a href="./cv-resume-sie-deta-dirganjaya.pdf" target="_blank" onClick={closeSidebar} className="text-gray-500 font-light">
+            <a href="./Deta_CV.pdf" target="_blank" onClick={closeSidebar} className="text-gray-500 font-light">
               CV
             </a>
           </div>

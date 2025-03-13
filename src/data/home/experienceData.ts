@@ -11,7 +11,7 @@ export const experiences: ExperienceItem[] = [
     title: "Systems and AI Research (SYAIR) Training Program",
     company: "University of Chicago",
     period: "Jan 2025 - Now",
-    location: "Remote, United States-Indonesia",
+    location: "Remote, United States - Indonesia",
     responsibilities: [
       "Covered 20+ technical papers from SIGCOMM and NSDI conferences",
       "Replicated and reproduced key experiments from top-tier publications.",
